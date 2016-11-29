@@ -38,7 +38,8 @@ return %list;
 sub get_zfsmanager_config
 {
 #my ($setting)=@_;
-my $lref = &read_file_lines($config{'zfsmanager_conf'});
+#does not exist yet
+#my $lref = &read_file_lines($config{'zfsmanager_conf'});
 my %rv;
 my $lnum = 0;
 foreach my $line (@$lref) {
